@@ -12,7 +12,7 @@ The code is organized as a small layered robot stack:
 ## Repository Structure
 
 ```text
-robot_nav/
+src/
 ├── brain.py              # Main operator-facing robot brain and command loop
 ├── behaviors.py          # High-level robot behaviors: line following, turns, pull-forward
 ├── tracking.py           # Grid map, pose tracking, Dijkstra path planning, visualization
